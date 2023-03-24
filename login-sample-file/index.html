@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validated Login form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Azubi Docker Form</h1>
+        <form class= "login_form" action="POST" name="form">
+            <div class="input-group">
+                <label for="username"> Username:</label>
+                <input type="text" id="username">
+                <p>Enter User Name!</p>
+            </div>
+            <div class="input-group font2">
+                <label for= password>Password:</label>
+                <input type="password" id="password"> 
+                <p>Enter Password!</p>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html>
